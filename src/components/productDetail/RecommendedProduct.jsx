@@ -34,12 +34,19 @@ const RecommendedProduct = () => {
       );
 
       i++;
-    } while (cards.length < availableItems);  
+    } while (cards.length < availableItems);
   }
 
   return (
-    <ClipWidthLayout additionalStyle="grid grid-cols-3 gap-5">
-      {cards}
+    <ClipWidthLayout additionalStyle="flex flex-col p-5 gap-5 h-fit">
+      <section>
+        <p className="font-heading text-[3rem] font-medium md:text-[4rem]">
+          Recommended Bouquets
+        </p>
+      </section>
+      <section className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+        {cards}
+      </section>
     </ClipWidthLayout>
   );
 };
