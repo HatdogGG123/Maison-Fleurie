@@ -1,8 +1,8 @@
 import React from "react";
-import aboutImage1 from "../../assets/about-image-1.jpg";
-import aboutImage2 from "../../assets/about-image-2.jpg";
-import aboutImage3 from "../../assets/about-image-3.jpg";
-import aboutImage4 from "../../assets/about-image-4.jpg";
+import aboutImage1 from "../../assets/about-image-1.webp";
+import aboutImage2 from "../../assets/about-image-2.webp";
+import aboutImage3 from "../../assets/about-image-3.webp";
+import aboutImage4 from "../../assets/about-image-4.webp";
 import AboutCard from "./AboutCard";
 
 const AboutCardList = () => {

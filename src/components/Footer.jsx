@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import footerBgImage from "../assets/footer-bg-image.jpg";
+import footerBgImage from "../assets/footer-bg-image.webp";
 import FullWidthLayout from "./layout/FullWidthLayout";
 import Button from "./ui/Button";
 

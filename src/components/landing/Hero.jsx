@@ -1,5 +1,5 @@
 import React from "react";
-import heroBg from "../../assets/hero-bg-image.jpg";
+import heroBg from "../../assets/hero-bg-image.webp";
 import Navbar from "../Navbar";
 import FullWidthLayout from "../layout/FullWidthLayout";
 
