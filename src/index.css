@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Cormorant Garamond Font */
+@import "@fontsource/cormorant-garamond/400.css";
+@import "@fontsource/cormorant-garamond/500.css";
+@import "@fontsource/cormorant-garamond/600.css";
+@import "@fontsource/cormorant-garamond/700.css";
+
+/* Jost Font */
+@import "@fontsource/jost/400.css";
+@import "@fontsource/jost/500.css";
+@import "@fontsource/jost/600.css";
+@import "@fontsource/jost/700.css";
+
+@theme {
+  --font-heading: "Cormorant Garamond", serif;
+  --font-body: "Jost", serif;
+
+  --color-accent: #b88762;
+  --color-primary: #383b33;
+  --color-secondary: #4e5352;
+  --color-tertiary: #82805b;
+  --color-gray: #dcd9d8;
+  --color-white: #f2f2f2;
+  --color-black: #202020;
+}
+
+html {
+  background-color: #dcd9d8;
+}
