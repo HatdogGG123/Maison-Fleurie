@@ -14,17 +14,9 @@ const Footer = () => {
         backgroundPosition: "center",
         backgroundSize: "cover",
       }}
+      additionalStyle="h-fit pt-10"
     >
       <section className="w-full h-full flex flex-col justify-end p-5 gap-5 text-white font-body">
-        {/* <section className="w-fit">
-          <Link to={"/bookEvent"}>
-            <Button
-              text="Book an Event"
-              additionalStyle="bg-secondary px-10 py-3"
-            />
-          </Link>
-        </section> */}
-
         <section className="flex flex-col gap-10 justify-between md:flex-row lg:justify-start">
           <section className="flex flex-col gap-2">
             <p className="text-2xl mb-2 lg:mb-5">Contacts</p>
