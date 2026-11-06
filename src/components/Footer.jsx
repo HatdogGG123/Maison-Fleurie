@@ -14,7 +14,7 @@ const Footer = () => {
         backgroundPosition: "center",
         backgroundSize: "cover",
       }}
-      additionalStyle="h-fit pt-10"
+      additionalStyle="h-fit pt-25"
     >
       <section className="w-full h-full flex flex-col justify-end p-5 gap-5 text-white font-body">
         <section className="flex flex-col gap-10 justify-between md:flex-row lg:justify-start">
